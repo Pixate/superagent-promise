@@ -21,16 +21,15 @@
     "url": "https://github.com/lightsofapollo/superagent-promise/issues"
   },
   "peerDependencies": {
-    "superagent": ">= 0.16.0",
-    "promise": ">= 3.2.0"
-  },
+    "bluebird": "^2.3.11",
+    "superagent": ">= 0.16.0"
+   },
   "devDependencies": {
     "browser-test": "0.0.0-alpha.2",
     "component": "^1.0.0-rc5",
     "debug": "0.7.4",
     "mocha": "^1.20.1",
     "node-static": "^0.7.3",
-    "promise": ">= 3.2.0",
     "superagent": ">= 0.16.0"
   }
 }

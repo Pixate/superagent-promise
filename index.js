@@ -2,8 +2,7 @@
  * Promise wrapper for superagent
  */
 
-// in the browser Promise is expected to be defined.
-var Promise = this.Promise || require('promise');
+var Promise = require('bluebird');
 
 function wrap(superagent) {
   /**
